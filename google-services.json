@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "85604986166",
+    "firebase_url": "https://pullyoureyes.firebaseio.com",
+    "project_id": "pullyoureyes",
+    "storage_bucket": "pullyoureyes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85604986166:android:00ac3681a3df7fcf911797",
+        "android_client_info": {
+          "package_name": "com.ask.gpylibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85604986166-0mpjco16cmjvmu1hv71oi2mfhnq1kshl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9BXB_Jp7v5oF9tZOkhelvWA7ONV2ezIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85604986166-0mpjco16cmjvmu1hv71oi2mfhnq1kshl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

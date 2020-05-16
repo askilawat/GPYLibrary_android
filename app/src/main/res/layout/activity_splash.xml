@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Splash">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/simg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/appn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/logo" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/devname"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/bungee"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#5C5C5C"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/devname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/bungee"
+        android:text="DevBy: AtitSK &amp; Team"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+</RelativeLayout>
